@@ -1,0 +1,8 @@
+//always get perfect party bonus exp by Bowie 03/2020
+[ENABLE]
+00465141:
+db 90 90
+ 
+[DISABLE]
+00465141:
+jne 00465145

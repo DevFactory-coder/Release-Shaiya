@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <Forms>
+    <UDF1 Class="TCEForm" Encoding="Ascii85">D]H=@2nldAU:MM2b.}cxWeIh0Gi32eO*FuxWMuP5%{mcIVgA6t9Fkwa6vP@ynNpI$=7,z9n3I!V=oyOr.Fg)[TFlAim^X9E:#-P1m%[;6SXz:FoLQC1$=lw3P=DLS#_Ac)!zDjCJ2/l;m6L%100</UDF1>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Bless System 50% [DEV]Factory"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ps_game.exe+CA22E8</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"light bless"</Description>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ps_game.exe+CA2264</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"dark bless"</Description>
+          <Color>400040</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ps_game.exe+CA22E8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Code :lock xadd [ecx],eax</Description>
+      <AddressString>kernel32.dll+4BB68</AddressString>
+      <Before>
+        <Byte>04</Byte>
+        <Byte>8B</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>F0</Byte>
+        <Byte>0F</Byte>
+        <Byte>C1</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>C2</Byte>
+        <Byte>08</Byte>
+        <Byte>00</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
